@@ -17,7 +17,7 @@ provider "aws" {
 module "ec2module"{
   
 
-    source = "./ec2"
+    source = "./module_ec2"
     ec2name = "demo-ec2"
 
 }
